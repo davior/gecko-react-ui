@@ -73,31 +73,31 @@ const routes = [
                 path: '/basic/button',
                 component: lazy(() => import('./views/ui-elements/basic/BasicButton'))
             },
-            {
-                exact: true,
-                path: '/basic/badges',
-                component: lazy(() => import('./views/ui-elements/basic/BasicBadges'))
-            },
-            {
-                exact: true,
-                path: '/basic/breadcrumb',
-                component: lazy(() => import('./views/ui-elements/basic/BasicBreadcrumb'))
-            },
-            {
-                exact: true,
-                path: '/basic/collapse',
-                component: lazy(() => import('./views/ui-elements/basic/BasicCollapse'))
-            },
-            {
-                exact: true,
-                path: '/basic/tabs-pills',
-                component: lazy(() => import('./views/ui-elements/basic/BasicTabsPills'))
-            },
-            {
-                exact: true,
-                path: '/basic/typography',
-                component: lazy(() => import('./views/ui-elements/basic/BasicTypography'))
-            },
+            // {
+            //     exact: true,
+            //     path: '/basic/badges',
+            //     component: lazy(() => import('./views/ui-elements/basic/BasicBadges'))
+            // },
+            // {
+            //     exact: true,
+            //     path: '/basic/breadcrumb',
+            //     component: lazy(() => import('./views/ui-elements/basic/BasicBreadcrumb'))
+            // },
+            // {
+            //     exact: true,
+            //     path: '/basic/collapse',
+            //     component: lazy(() => import('./views/ui-elements/basic/BasicCollapse'))
+            // },
+            // {
+            //     exact: true,
+            //     path: '/basic/tabs-pills',
+            //     component: lazy(() => import('./views/ui-elements/basic/BasicTabsPills'))
+            // },
+            // {
+            //     exact: true,
+            //     path: '/basic/typography',
+            //     component: lazy(() => import('./views/ui-elements/basic/BasicTypography'))
+            // },
 
             {
                 exact: true,

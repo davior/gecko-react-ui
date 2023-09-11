@@ -1,11 +1,11 @@
 {
-    "name": "react-datta-able-dashboard",
+    "name": "gecko-chat-gpt-react",
     "version": "0.0.2",
     "private": true,
     "build": {
         "yarn": "v14.0.0,v16.0.0",
         "npm": "v16.0.0"
-    },    
+    },
     "dependencies": {
         "@amcharts/amcharts3-react": "^3.1.0",
         "@reduxjs/toolkit": "^1.5.0",
@@ -43,7 +43,7 @@
         "yup": "^0.32.9"
     },
     "scripts": {
-        "start": "react-scripts start",
+        "start": "set PORT=10104 && react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"

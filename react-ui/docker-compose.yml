@@ -11,7 +11,7 @@ services:
       - '.:/app'
       - '/app/node_modules'
     ports:
-      - 3000:3000
+      - 10104:10104
     environment:
       - CHOKIDAR_USEPOLLING=true
       
